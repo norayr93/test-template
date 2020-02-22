@@ -42,9 +42,6 @@
     "lint:js": "eslint --fix 'config/**/*.js' 'src/**/*.js' 'src/**/*.jsx' --cache --cache-location 'node_modules/.cache/eslint/'",
     "lint:css": "stylelint --fix 'src/**/*.scss' 'src/**/*.css' --cache --cache-location 'node_modules/.cache/stylelint/'"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
